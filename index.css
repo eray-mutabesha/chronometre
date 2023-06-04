@@ -1,0 +1,53 @@
+body {
+  background-image: linear-gradient(to right, rgb(44, 5, 3), rgb(105, 246, 215), rgb(44, 5, 3));
+}
+
+h1 {
+  text-align: center;
+}
+
+.chronometre {
+  background-color: rgba(0, 255, 255, 0.367);
+  color: rgb(10, 38, 40);
+  box-shadow: 0px 0px 10px 7px rgba(44, 43, 43, 0.662745098);
+  width: 40%;
+  height: 250px;
+  margin: 10% auto;
+  text-align: center;
+}
+.chronometre .tim {
+  position: relative;
+  top: 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(0, 0, 0, 0);
+  box-shadow: 0px 0px 10px 7px rgba(44, 43, 43, 0.662745098);
+  width: 80%;
+}
+.chronometre .tim span {
+  font-size: 50px;
+  margin: 10px;
+}
+.chronometre .controles {
+  margin: 50px;
+  width: 80%;
+  box-shadow: 0px 0px 10px 7px rgba(44, 43, 43, 0.662745098);
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid rgba(0, 0, 0, 0);
+}
+.chronometre .controles button {
+  margin: 10px;
+  width: 90px;
+  height: 30px;
+  border: none;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.149);
+  transition: 0.1s;
+}/*# sourceMappingURL=index.css.map */

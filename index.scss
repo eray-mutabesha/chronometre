@@ -1,0 +1,48 @@
+
+@use 'extation' as *;
+body{
+    background-image:linear-gradient(to right,rgb(44, 5, 3),rgb(105, 246, 215),rgb(44,5,3));
+}
+h1{
+    text-align: center;
+}
+.chronometre{
+    background-color: rgba(0, 255, 255, 0.367);
+    color: rgb(10, 38, 40);
+    @include ombre;
+    width:40%;
+    height:250px;
+    margin: 10% auto;
+    text-align: center;
+    
+     .tim{
+        position: relative;
+        top:30px;
+        @include centre;
+        @include ombre;
+        width: 80%;
+       
+        span{
+            font-size: 50px;
+            margin: 10px;
+
+        } 
+              }
+    
+    .controles{
+        margin: 50px;
+        width: 80%;
+        @include ombre;
+        @include centre;
+        button{
+        margin: 10px;
+        width: 90px;
+        height: 30px;
+        border: none;
+       }
+    }
+}
+button:hover{
+    background-color: rgba(0, 0, 0, 0.149);
+    transition: 0.1s;
+}
